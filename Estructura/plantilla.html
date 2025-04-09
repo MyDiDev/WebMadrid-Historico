@@ -59,6 +59,31 @@
       padding: 0 10px;
       font-style: italic;
     }
+    
+    .card:hover .card-text {
+      opacity: 0;
+    }
+
+    .card:hover img {
+    filter: brightness(0.5); 
+    }
+
+    .card-stats {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: white;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;  
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .card:hover .card-stats {
+      opacity: 1;
+    }
 
     section {
       margin-top: 50px;
@@ -93,16 +118,16 @@
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a href="#" class="nav-link fs-5">Plantilla</a>
+                  <a href="plantilla.html" class="nav-link fs-5">Plantilla</a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link fs-5">Partidos</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link fs-5">Titulos</a>
+                  <a href="titulos.html" class="nav-link fs-5">Titulos</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link fs-5">Historia</a>
+                  <a href="historia.html" class="nav-link fs-5">Historia</a>
                 </li>
               </ul>
             </div>
@@ -119,6 +144,11 @@
                     <br>
                     1
                   </div>
+                  <div class="card-stats">
+                    <p>Partidos: 274 (2024/2025: 38)</p>
+                    <p>Portería a cero: 108 (2024/2025: 11)</p>
+                    <p>Goles recibidos: 262 (2024/2025: 43)</p>
+                  </div>
                 </div>
                 <div class="card">
                   <img src="https://private-user-images.githubusercontent.com/189624396/431381204-9bd7fb54-e6ec-4ce7-bcb7-856fc3494b19.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDQxMTc5NTMsIm5iZiI6MTc0NDExNzY1MywicGF0aCI6Ii8xODk2MjQzOTYvNDMxMzgxMjA0LTliZDdmYjU0LWU2ZWMtNGNlNy1iY2I3LTg1NmZjMzQ5NGIxOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwOFQxMzA3MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMDE4ZDdjOTgzMjViNGU3ZDE2MzVmZTk4NzdlYzM4NThhMTVkNWM0YjVlOGIwMTQ4NWZhYmUyYTcxZjQ0OGYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ShXNIzmJ0zBis6mNIWbZfWa4bN2mqoUL6yvJJpmedGs">
@@ -126,6 +156,11 @@
                     Lunin
                     <br>
                     13
+                  </div>
+                  <div class="card-stats">
+                    <p>Partidos: 60 (2024/2025: 12)</p>
+                    <p>Portería a cero: 20 (2024/2025: 4)</p>
+                    <p>Goles recibidos: 70 (2024/2025: 19)</p>
                   </div>
                 </div>
               </div>
